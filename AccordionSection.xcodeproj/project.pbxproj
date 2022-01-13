@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D55AF2E039D26B6C14EE4D6 /* Pods_AccordionSection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 268171357799246F8F5E2F6C /* Pods_AccordionSection.framework */; };
+		3527A3F227904C1300986260 /* AccordionTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3527A3F127904C1300986260 /* AccordionTableView.swift */; };
+		3527A3F427904E5D00986260 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3527A3F327904E5D00986260 /* MainViewController.swift */; };
+		3527A3F8279052D600986260 /* AccordionSectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3527A3F7279052D600986260 /* AccordionSectionCell.swift */; };
+		3572F2E6278FD156000E02FB /* AccordionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3572F2E5278FD156000E02FB /* AccordionModel.swift */; };
+		3572F2E9278FD236000E02FB /* AAccordionSectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3572F2E8278FD236000E02FB /* AAccordionSectionCell.swift */; };
+		3572F2EB278FE105000E02FB /* Ext+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3572F2EA278FE105000E02FB /* Ext+View.swift */; };
+		3572F2ED278FEDE5000E02FB /* NewAccor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3572F2EC278FEDE5000E02FB /* NewAccor.swift */; };
+		3572F2F2278FFCD7000E02FB /* BaseAccordionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3572F2F1278FFCD7000E02FB /* BaseAccordionTableViewCell.swift */; };
 		35A00363278F411F000C9095 /* Accordion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A00362278F411F000C9095 /* Accordion.swift */; };
 		35CB68DB278F401200B911A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CB68DA278F401200B911A2 /* AppDelegate.swift */; };
 		35CB68DD278F401200B911A2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CB68DC278F401200B911A2 /* SceneDelegate.swift */; };
-		35CB68DF278F401200B911A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CB68DE278F401200B911A2 /* ViewController.swift */; };
 		35CB68E4278F401500B911A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35CB68E3278F401500B911A2 /* Assets.xcassets */; };
 		35CB68E7278F401500B911A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35CB68E5278F401500B911A2 /* LaunchScreen.storyboard */; };
 		35CB68F2278F401500B911A2 /* AccordionSectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CB68F1278F401500B911A2 /* AccordionSectionTests.swift */; };
 		35CB68FC278F401500B911A2 /* AccordionSectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CB68FB278F401500B911A2 /* AccordionSectionUITests.swift */; };
 		35CB68FE278F401500B911A2 /* AccordionSectionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CB68FD278F401500B911A2 /* AccordionSectionUITestsLaunchTests.swift */; };
+		C3E91C192ADDBA5B79AD2B79 /* Pods_AccordionSectionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7F0A2B90D6D9D14B731F8FD /* Pods_AccordionSectionTests.framework */; };
+		C7BA1D79381BC1308223D126 /* Pods_AccordionSection_AccordionSectionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA92114ACB6F9DD2491635F /* Pods_AccordionSection_AccordionSectionUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +46,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05D2C1FD047477BF23E0D1F1 /* Pods-AccordionSection-AccordionSectionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccordionSection-AccordionSectionUITests.release.xcconfig"; path = "Target Support Files/Pods-AccordionSection-AccordionSectionUITests/Pods-AccordionSection-AccordionSectionUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0DCC3955D3F48C848CF4FAF9 /* Pods-AccordionSectionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccordionSectionTests.debug.xcconfig"; path = "Target Support Files/Pods-AccordionSectionTests/Pods-AccordionSectionTests.debug.xcconfig"; sourceTree = "<group>"; };
+		19C982CB63EA19EC01649DE9 /* Pods-AccordionSection-AccordionSectionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccordionSection-AccordionSectionUITests.debug.xcconfig"; path = "Target Support Files/Pods-AccordionSection-AccordionSectionUITests/Pods-AccordionSection-AccordionSectionUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		268171357799246F8F5E2F6C /* Pods_AccordionSection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AccordionSection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3527A3F127904C1300986260 /* AccordionTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccordionTableView.swift; sourceTree = "<group>"; };
+		3527A3F327904E5D00986260 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		3527A3F7279052D600986260 /* AccordionSectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccordionSectionCell.swift; sourceTree = "<group>"; };
+		3572F2E5278FD156000E02FB /* AccordionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccordionModel.swift; sourceTree = "<group>"; };
+		3572F2E8278FD236000E02FB /* AAccordionSectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AAccordionSectionCell.swift; sourceTree = "<group>"; };
+		3572F2EA278FE105000E02FB /* Ext+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext+View.swift"; sourceTree = "<group>"; };
+		3572F2EC278FEDE5000E02FB /* NewAccor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAccor.swift; sourceTree = "<group>"; };
+		3572F2F1278FFCD7000E02FB /* BaseAccordionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAccordionTableViewCell.swift; sourceTree = "<group>"; };
 		35A00362278F411F000C9095 /* Accordion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accordion.swift; sourceTree = "<group>"; };
 		35CB68D7278F401200B911A2 /* AccordionSection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccordionSection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35CB68DA278F401200B911A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		35CB68DC278F401200B911A2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		35CB68DE278F401200B911A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		35CB68E3278F401500B911A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35CB68E6278F401500B911A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		35CB68E8278F401500B911A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +70,11 @@
 		35CB68F7278F401500B911A2 /* AccordionSectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccordionSectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		35CB68FB278F401500B911A2 /* AccordionSectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccordionSectionUITests.swift; sourceTree = "<group>"; };
 		35CB68FD278F401500B911A2 /* AccordionSectionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccordionSectionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4A4580662239DC938A1C06E8 /* Pods-AccordionSection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccordionSection.release.xcconfig"; path = "Target Support Files/Pods-AccordionSection/Pods-AccordionSection.release.xcconfig"; sourceTree = "<group>"; };
+		A1466207957D7A0520708564 /* Pods-AccordionSection.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccordionSection.debug.xcconfig"; path = "Target Support Files/Pods-AccordionSection/Pods-AccordionSection.debug.xcconfig"; sourceTree = "<group>"; };
+		A7F0A2B90D6D9D14B731F8FD /* Pods_AccordionSectionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AccordionSectionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDA92114ACB6F9DD2491635F /* Pods_AccordionSection_AccordionSectionUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AccordionSection_AccordionSectionUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDBF69E92B4E12212C392EF9 /* Pods-AccordionSectionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccordionSectionTests.release.xcconfig"; path = "Target Support Files/Pods-AccordionSectionTests/Pods-AccordionSectionTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D55AF2E039D26B6C14EE4D6 /* Pods_AccordionSection.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3E91C192ADDBA5B79AD2B79 /* Pods_AccordionSectionTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +98,66 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7BA1D79381BC1308223D126 /* Pods_AccordionSection_AccordionSectionUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3527A3F527904E6C00986260 /* AccordionView */ = {
+			isa = PBXGroup;
+			children = (
+				3527A3F9279055BE00986260 /* Section */,
+				3527A3F627904E7900986260 /* BaseAccordion */,
+				3527A3F127904C1300986260 /* AccordionTableView.swift */,
+			);
+			path = AccordionView;
+			sourceTree = "<group>";
+		};
+		3527A3F627904E7900986260 /* BaseAccordion */ = {
+			isa = PBXGroup;
+			children = (
+				3572F2F1278FFCD7000E02FB /* BaseAccordionTableViewCell.swift */,
+			);
+			path = BaseAccordion;
+			sourceTree = "<group>";
+		};
+		3527A3F9279055BE00986260 /* Section */ = {
+			isa = PBXGroup;
+			children = (
+				3527A3F7279052D600986260 /* AccordionSectionCell.swift */,
+			);
+			path = Section;
+			sourceTree = "<group>";
+		};
+		3572F2E1278FD143000E02FB /* Accordion */ = {
+			isa = PBXGroup;
+			children = (
+				3572F2E2278FD14B000E02FB /* Model */,
+				3572F2E7278FD22C000E02FB /* Section */,
+				35A00362278F411F000C9095 /* Accordion.swift */,
+				3572F2EC278FEDE5000E02FB /* NewAccor.swift */,
+			);
+			path = Accordion;
+			sourceTree = "<group>";
+		};
+		3572F2E2278FD14B000E02FB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3572F2E5278FD156000E02FB /* AccordionModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3572F2E7278FD22C000E02FB /* Section */ = {
+			isa = PBXGroup;
+			children = (
+				3572F2E8278FD236000E02FB /* AAccordionSectionCell.swift */,
+			);
+			path = Section;
+			sourceTree = "<group>";
+		};
 		35CB68CE278F401200B911A2 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +165,8 @@
 				35CB68F0278F401500B911A2 /* AccordionSectionTests */,
 				35CB68FA278F401500B911A2 /* AccordionSectionUITests */,
 				35CB68D8278F401200B911A2 /* Products */,
+				7F63B87749AC765B0ED7BBDA /* Pods */,
+				62432F465E561C3A7A585847 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +183,15 @@
 		35CB68D9278F401200B911A2 /* AccordionSection */ = {
 			isa = PBXGroup;
 			children = (
+				3527A3F527904E6C00986260 /* AccordionView */,
+				3572F2E1278FD143000E02FB /* Accordion */,
+				3527A3F327904E5D00986260 /* MainViewController.swift */,
 				35CB68DA278F401200B911A2 /* AppDelegate.swift */,
 				35CB68DC278F401200B911A2 /* SceneDelegate.swift */,
-				35CB68DE278F401200B911A2 /* ViewController.swift */,
-				35A00362278F411F000C9095 /* Accordion.swift */,
 				35CB68E3278F401500B911A2 /* Assets.xcassets */,
 				35CB68E5278F401500B911A2 /* LaunchScreen.storyboard */,
 				35CB68E8278F401500B911A2 /* Info.plist */,
+				3572F2EA278FE105000E02FB /* Ext+View.swift */,
 			);
 			path = AccordionSection;
 			sourceTree = "<group>";
@@ -127,6 +213,29 @@
 			path = AccordionSectionUITests;
 			sourceTree = "<group>";
 		};
+		62432F465E561C3A7A585847 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				268171357799246F8F5E2F6C /* Pods_AccordionSection.framework */,
+				DDA92114ACB6F9DD2491635F /* Pods_AccordionSection_AccordionSectionUITests.framework */,
+				A7F0A2B90D6D9D14B731F8FD /* Pods_AccordionSectionTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F63B87749AC765B0ED7BBDA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1466207957D7A0520708564 /* Pods-AccordionSection.debug.xcconfig */,
+				4A4580662239DC938A1C06E8 /* Pods-AccordionSection.release.xcconfig */,
+				19C982CB63EA19EC01649DE9 /* Pods-AccordionSection-AccordionSectionUITests.debug.xcconfig */,
+				05D2C1FD047477BF23E0D1F1 /* Pods-AccordionSection-AccordionSectionUITests.release.xcconfig */,
+				0DCC3955D3F48C848CF4FAF9 /* Pods-AccordionSectionTests.debug.xcconfig */,
+				EDBF69E92B4E12212C392EF9 /* Pods-AccordionSectionTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +243,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 35CB6901278F401500B911A2 /* Build configuration list for PBXNativeTarget "AccordionSection" */;
 			buildPhases = (
+				C16AC2486F7FA5E9EF102D69 /* [CP] Check Pods Manifest.lock */,
 				35CB68D3278F401200B911A2 /* Sources */,
 				35CB68D4278F401200B911A2 /* Frameworks */,
 				35CB68D5278F401200B911A2 /* Resources */,
+				039FB1E59EAA24756E0F5EC2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +262,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 35CB6904278F401500B911A2 /* Build configuration list for PBXNativeTarget "AccordionSectionTests" */;
 			buildPhases = (
+				9182FB720C9CFBFC74942DC3 /* [CP] Check Pods Manifest.lock */,
 				35CB68E9278F401500B911A2 /* Sources */,
 				35CB68EA278F401500B911A2 /* Frameworks */,
 				35CB68EB278F401500B911A2 /* Resources */,
@@ -169,9 +281,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 35CB6907278F401500B911A2 /* Build configuration list for PBXNativeTarget "AccordionSectionUITests" */;
 			buildPhases = (
+				707BC4ED66CCFDD6583B3968 /* [CP] Check Pods Manifest.lock */,
 				35CB68F3278F401500B911A2 /* Sources */,
 				35CB68F4278F401500B911A2 /* Frameworks */,
 				35CB68F5278F401500B911A2 /* Resources */,
+				A9E250234D1A586245BE243E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,13 +366,123 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		039FB1E59EAA24756E0F5EC2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AccordionSection/Pods-AccordionSection-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AccordionSection/Pods-AccordionSection-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AccordionSection/Pods-AccordionSection-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		707BC4ED66CCFDD6583B3968 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AccordionSection-AccordionSectionUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9182FB720C9CFBFC74942DC3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AccordionSectionTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9E250234D1A586245BE243E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AccordionSection-AccordionSectionUITests/Pods-AccordionSection-AccordionSectionUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AccordionSection-AccordionSectionUITests/Pods-AccordionSection-AccordionSectionUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AccordionSection-AccordionSectionUITests/Pods-AccordionSection-AccordionSectionUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C16AC2486F7FA5E9EF102D69 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AccordionSection-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		35CB68D3278F401200B911A2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3527A3F427904E5D00986260 /* MainViewController.swift in Sources */,
+				3572F2F2278FFCD7000E02FB /* BaseAccordionTableViewCell.swift in Sources */,
+				3572F2E9278FD236000E02FB /* AAccordionSectionCell.swift in Sources */,
+				3527A3F8279052D600986260 /* AccordionSectionCell.swift in Sources */,
 				35A00363278F411F000C9095 /* Accordion.swift in Sources */,
-				35CB68DF278F401200B911A2 /* ViewController.swift in Sources */,
+				3527A3F227904C1300986260 /* AccordionTableView.swift in Sources */,
+				3572F2E6278FD156000E02FB /* AccordionModel.swift in Sources */,
+				3572F2ED278FEDE5000E02FB /* NewAccor.swift in Sources */,
+				3572F2EB278FE105000E02FB /* Ext+View.swift in Sources */,
 				35CB68DB278F401200B911A2 /* AppDelegate.swift in Sources */,
 				35CB68DD278F401200B911A2 /* SceneDelegate.swift in Sources */,
 			);
@@ -426,6 +650,7 @@
 		};
 		35CB6902278F401500B911A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1466207957D7A0520708564 /* Pods-AccordionSection.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -453,6 +678,7 @@
 		};
 		35CB6903278F401500B911A2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A4580662239DC938A1C06E8 /* Pods-AccordionSection.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -480,6 +706,7 @@
 		};
 		35CB6905278F401500B911A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DCC3955D3F48C848CF4FAF9 /* Pods-AccordionSectionTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -500,6 +727,7 @@
 		};
 		35CB6906278F401500B911A2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDBF69E92B4E12212C392EF9 /* Pods-AccordionSectionTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -520,6 +748,7 @@
 		};
 		35CB6908278F401500B911A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19C982CB63EA19EC01649DE9 /* Pods-AccordionSection-AccordionSectionUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -538,6 +767,7 @@
 		};
 		35CB6909278F401500B911A2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05D2C1FD047477BF23E0D1F1 /* Pods-AccordionSection-AccordionSectionUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
